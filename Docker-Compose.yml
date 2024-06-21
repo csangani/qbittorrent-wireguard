@@ -34,7 +34,7 @@ services:
       - "PGID=567"
       - "LAN_NETWORK=192.168.1.0/24"
       - "QBT_LEGAL_NOTICE=confirm"
-    image: "docker.io/tenseiken/qbittorrent-wireguard:latest"
+    image: "docker.io/csangani/qbittorrent-wireguard:latest"
     ipc: "private"
     network_mode: "bridge"
     ports:
